@@ -1,5 +1,5 @@
 var suits = ["Spades ♠️", "Hearts ♥️", "Diamonds ♦️", "Clubs ♣️"];
-// var values = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"];
+
 var gameMode = "input num of players";
 var aIHand = [];
 var playerList = [];
@@ -8,7 +8,7 @@ var playerID = 0;
 var aIScore = 0;
 var turnNumber = 0;
 var blackJackTops = 21;
-// var deck = new Array();
+
 
 var main = function(input) {
     var shuffledDeck = shuffleCards(deckCreator());
